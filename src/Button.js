@@ -2,7 +2,7 @@ import React from 'react';
 import { ActivityIndicator, Dimensions, StyleSheet, TouchableOpacity, Text } from 'react-native';
 import PropTypes from 'prop-types';
 // galio components
-import { Icon } from './';
+import Icon from 'react-native-vector-icons/FontAwesome';
 import GalioTheme, { withGalio } from './theme';
 
 const { width } = Dimensions.get('window');
@@ -53,7 +53,7 @@ function Button({
       content = (
         <Icon
           name={icon}
-          family={iconFamily}
+//           family={iconFamily}
           size={iconSize}
           color={iconColor || theme.COLORS.BLACK}
         />
